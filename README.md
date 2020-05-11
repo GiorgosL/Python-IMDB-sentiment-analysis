@@ -7,3 +7,10 @@ The dataset consists of reviews and their respective status being classified as 
 - Tfidf
 
 - Ngram (1,2)
+
+
+Furthermore, a neural network approach has been followed in order to classify the sentiments in the dataset, including the following:
+
+- A simple feedforward neural network trained using the tfidf sklearn tokenizer.
+
+- A recurrent neural netowrk (LSTM) trained using the keras tokenizer.
